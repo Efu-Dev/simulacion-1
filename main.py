@@ -30,8 +30,10 @@ for i in range(0,100): # Cien Simulaciones
             posicion_inicial[1] += -1
         
     distancia = sum([abs(x) for x in posicion_inicial])
+    print(f"Distancia en la simulación {i+1}: {distancia}.")
     if(distancia == 2):
         probs += 1
 
+print("\n---------------------------------")
 print(f"La probabilidad dada en las simulaciones es la siguiente: {probs}%.")
 input("Presione enter para cerrar: ")
