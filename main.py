@@ -9,6 +9,12 @@ from random import randint
 
 probs = 0
 
+print("--------------------------------------")
+print("Evaluación #1: Problema del Ebrio")
+print("Simulación de Sistemas (N1113)")
+print("Diego Andrés Faria Brito (V29.714.067)")
+print("--------------------------------------")
+
 for i in range(0,100): # Cien Simulaciones
     posicion_inicial = [0,0]
     for j in range(0,10): # Diez movimientos por cada uno
