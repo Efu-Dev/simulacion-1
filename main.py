@@ -18,7 +18,7 @@ print("--------------------------------------")
 for i in range(0,100): # Cien Simulaciones
     posicion_inicial = [0,0]
     for j in range(0,10): # Diez movimientos por cada uno
-        numero_random = randint(0,4)
+        numero_random = randint(0,3) # 0, 1, 2, 3
 
         if(numero_random == 0):
             posicion_inicial[0] += 1
